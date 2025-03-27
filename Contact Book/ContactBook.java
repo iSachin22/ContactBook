@@ -115,8 +115,8 @@ public class ContactBook {
                 contact.phone = scanner.nextLine();
                 System.out.print("Enter new email: ");
                 contact.email = scanner.nextLine();
-                System.out.println("Contact updated successfully!");
-                return;
+                System.out.println("Contact Updated successfully!");
+                return ;
             }
         }
         System.out.println("Contact not found.");
